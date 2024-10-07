@@ -1,0 +1,180 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* layout */
+.section{
+    padding: 20px;
+}
+.container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    /* debug */
+}
+.text-center{
+    text-align:center;
+}
+
+/* HEADER */
+.header {
+
+    background-color: rgb(210, 235, 211); 
+    /* debug */
+   
+}
+.raw{   
+    display: flex;
+    
+/* debug */
+background-color: orange;
+width: 80%;
+
+}
+.col-big{
+    
+    width: 50%;
+    /* debug */
+    border: 1px ridge black;
+
+    
+    
+}
+.col{
+   width: 25%;
+   /* debug */
+   border: 1px ridge black;
+    
+}
+
+/* BANNER */
+.banner{
+    background-color: blue;
+    height: 240px;
+}
+.small-raw{
+    display: flex;
+    
+}
+.col-banner{
+    width: 60%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    
+    /* DEBUG */
+    border: 1px solid black;
+    height: 200px;
+    background-color: pink;
+}
+
+/* SEZIONI CENTRALI */
+/* PRIMA SEZIONE */
+.first-section{
+    background-color: white;
+height: 240px;
+padding: 20px 0;
+/* DEBUG */
+border: 1px solid black;
+
+}
+.first-raw{
+    display: flex;
+    /* DEBUG */
+    border: 1px solid red;
+    height: 200px;
+    
+}
+.first-col-big{
+    width: 70%;
+    /* debug */
+    border: 1px ridge black;
+    background-color: aqua;
+}
+.first-col-small{
+    width: 30%;
+    /* debug */
+    border: 1px ridge black;
+    background-color: pink;
+}
+/* SECONDA SEZIONE */
+.reverse{
+    flex-direction: row-reverse;
+}
+.second-section{
+    background-color: rgb(76, 75, 75);
+    height: 240px;
+padding: 20px 0;
+/* DEBUG */
+border: 1px solid black;
+}
+/* SEZIONE GRANDE */
+.big-section{
+    ;
+    padding: 20px 0;
+    /* debug */
+    
+}
+.green-section{
+    background-color: green;
+    height: 400px;
+    
+    border: 1px solid black;
+}
+/* footer */
+.footer-container{
+    background-color: black;
+}
+.footer-raw{
+    display: flex;
+ /* debug */
+ height: 350px;
+}
+.footer-col{
+    background-color: lightblue;
+width: calc(70% / 4);
+/* debug */
+border: 1px solid purple;
+height: 350px;
+}
+.footer-bigcol{
+    background-color: pink;
+    width: 30%;
+    /* debug */
+    border: 1px solid red;
+    height: 350px;
+}
+/* final-container */
+.final-container{
+    background-color: black;
+}
+.final-raw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightseagreen;
+/* debug */
+border: 1px solid red;
+height: 100px;
+
+}
+.final-col{
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    text-align: center;
+    padding: 14px;
+    
+    /* debug */
+    border: 1px solid pink;
+
+
+}
