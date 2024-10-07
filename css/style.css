@@ -109,30 +109,27 @@ body{
 /* PRIMA SEZIONE */
 .first-section{
     background-color: white;
-height: 240px;
 padding: 20px 0;
 /* DEBUG */
-border: 1px solid black;
 
 }
 .first-raw{
     display: flex;
     /* DEBUG */
-    border: 1px solid red;
-    height: 200px;
+    
     
 }
 .first-col-big{
     width: 70%;
-    /* debug */
-    border: 1px ridge black;
-    background-color: aqua;
+  
 }
 .first-col-small{
     width: 30%;
-    /* debug */
-    border: 1px ridge black;
-    background-color: pink;
+}
+.minititolo{
+    padding: 20px;
+    
+
 }
 /* SECONDA SEZIONE */
 .reverse{
