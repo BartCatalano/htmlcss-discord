@@ -168,8 +168,13 @@ width: calc(70% / 4);
     color: #7676be;
 }
 .italiano{
+    display: flex;
     color: white;
     align-items: center;
+
+}
+.flag{
+    width: 30px;
 }
 .simbol-list{
     display: flex;
@@ -193,6 +198,7 @@ width: calc(70% / 4);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 }
 .final-col{
     text-align: center;
